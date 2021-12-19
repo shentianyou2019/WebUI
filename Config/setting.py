@@ -19,9 +19,7 @@ IMAGES_DIR = os.path.join(BASE_DIR, "OutPuts", "images")
 # 测试数据文件
 TEST_DATA = os.path.join(BASE_DIR, "TestDatas")
 TEST_GOBAL_DATA = os.path.join(BASE_DIR, "TestDatas", "GobalDatas")
-TEST_LOGIN_DATA = os.path.join(BASE_DIR, "TestDatas", "LoginDatas")
-TEST_HOME_DATA = os.path.join(BASE_DIR, "TestDatas", "HomeDatas")
-TEST_IMS_DATA = os.path.join(BASE_DIR, "TestDatas", "ImsDatas")
+
 
 # 元素控件
 TEST_Element = os.path.join(BASE_DIR, "Elements")
@@ -39,6 +37,6 @@ IE_PATH= os.path.join(BASE_DIR, "Tools","IEDriverServer.exe")
 #ExcelDatas目录
 EXCEL_DATA = os.path.join(BASE_DIR, "ExcelDatas")
 Trade_EXCEL=os.path.join(EXCEL_DATA,"trade.xls")
-IMS_EXCEL=os.path.join(EXCEL_DATA, "ImsDatas", "home.xls")
+
 
 
