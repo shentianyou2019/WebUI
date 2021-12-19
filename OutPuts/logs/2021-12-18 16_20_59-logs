@@ -1,0 +1,6 @@
+2021-12-18 16:20:59,797 - logs… - INFO - ==========开始 AMP项目 执行测试===========
+2021-12-18 16:20:59,797 - logs… - INFO - You had select Chrome browser.
+2021-12-18 16:21:09,250 - logs… - INFO - Starting Chrome browser.
+2021-12-18 16:21:09,408 - logs… - INFO - ==========开始执行登录测试用例集===========
+2021-12-18 16:21:09,408 - logs… - INFO - ----------------------------------------------------------------------------------<selenium.webdriver.chrome.webdriver.WebDriver (session="b44dd7fcde32f6d8b17a8dba9d290814")>
+2021-12-18 16:21:54,057 - logs… - INFO - ==========结束 AMP项目 测试===========

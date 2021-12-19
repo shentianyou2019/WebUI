@@ -1,0 +1,11 @@
+2021-12-18 18:09:08,761 - logs… - INFO - ==========开始 XX项目 执行测试===========
+2021-12-18 18:09:08,764 - logs… - INFO - You had select Chrome browser.
+2021-12-18 18:09:10,876 - logs… - INFO - Starting Chrome browser.
+2021-12-18 18:09:11,119 - logs… - INFO - ==========开始执行XX测试用例集===========
+2021-12-18 18:09:11,119 - logs… - INFO - ----------------------------------------------------------------------------------<selenium.webdriver.chrome.webdriver.WebDriver (session="97ccfa150b1b2e8bfbc4143df019d02d")>
+2021-12-18 18:10:15,585 - logs… - INFO -  执行 test_trade_search01 测试用例 
+2021-12-18 18:10:15,588 - logs… - INFO -  异常测试用例：自动导航到XTZ/CRO交易页面 
+2021-12-18 18:10:59,643 - logs… - ERROR - <PageObjects.TradePom.Trade_page.TradePage object at 0x0000019E50A20978>界面中未能找到('xpath', "//div[@class='name'][text()='XTZ/CRO']")元素
+2021-12-18 18:10:59,643 - logs… - ERROR - <PageObjects.TradePom.Trade_page.TradePage object at 0x0000019E50A20978> 界面中未能找到 ('xpath', "//div[@class='name'][text()='XTZ/CRO']") 元素
+2021-12-18 18:10:59,643 - logs… - INFO - 期望值：XTZ/CRO
+2021-12-18 18:10:59,643 - logs… - INFO - 获取页面元素:('css selector', '.toggle')

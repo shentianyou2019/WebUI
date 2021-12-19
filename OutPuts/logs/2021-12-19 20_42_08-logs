@@ -1,0 +1,27 @@
+2021-12-19 20:42:09,136 - logs… - INFO - ==========开始 XX项目 执行测试===========
+2021-12-19 20:42:09,195 - logs… - INFO - You had select Chrome browser.
+2021-12-19 20:42:14,100 - logs… - INFO - Starting Chrome browser.
+2021-12-19 20:42:14,741 - logs… - INFO - ==========开始执行XX测试用例集===========
+2021-12-19 20:42:14,742 - logs… - INFO - ----------------------------------------------------------------------------------<selenium.webdriver.chrome.webdriver.WebDriver (session="0c8a74f7868a45b5f47615fb0db547d6")>
+2021-12-19 20:44:45,147 - logs… - INFO -  执行 test_trade_search01 测试用例 
+2021-12-19 20:44:45,147 - logs… - INFO -  正常测试用例：自动导航到XTZ/CRO交易页面 
+2021-12-19 20:44:46,701 - logs… - INFO - 期望值：XTZ/CRO
+2021-12-19 20:44:46,701 - logs… - INFO - 获取页面元素:('css selector', '.toggle')
+2021-12-19 20:44:49,464 - logs… - INFO - 实际值：XTZ/CRO
+2021-12-19 20:44:49,464 - logs… - INFO - 获取页面元素:('css selector', '.toggle')
+2021-12-19 20:44:49,502 - logs… - INFO -  结束执行 test_trade_search01 测试用例， 测试结果 --- PASS 
+2021-12-19 20:44:50,055 - logs… - INFO - 自动导航到XTZ/CRO交易页面-正常截图截图成功，图片路径为: 自动导航到XTZ/CRO交易页面-正常截图
+2021-12-19 20:44:53,075 - logs… - INFO -  执行 test_trade_search02 测试用例 
+2021-12-19 20:44:53,075 - logs… - INFO -  异常测试用例：自动导航到XTZ/CRO交易页面 
+2021-12-19 20:46:50,372 - logs… - ERROR - <PageObjects.TradePom.Trade_page.TradePage object at 0x000002C013AFBEF0>界面中未能找到('xpath', "//div[@class='e-tabs__nav-item'][text()='CRO']")元素
+2021-12-19 20:46:50,373 - logs… - ERROR - <PageObjects.TradePom.Trade_page.TradePage object at 0x000002C013AFBEF0> 界面中未能找到 ('xpath', "//div[@class='e-tabs__nav-item'][text()='CRO']") 元素
+2021-12-19 20:47:05,906 - logs… - ERROR - <PageObjects.TradePom.Trade_page.TradePage object at 0x000002C013AFBEF0>界面中未能找到('xpath', "//span[@class='base'][text()='XTZ']")元素
+2021-12-19 20:47:05,908 - logs… - ERROR - <PageObjects.TradePom.Trade_page.TradePage object at 0x000002C013AFBEF0> 界面中未能找到 ('xpath', "//span[@class='base'][text()='XTZ']") 元素
+2021-12-19 20:47:05,908 - logs… - INFO - 期望值：XTZ/CRO
+2021-12-19 20:47:05,908 - logs… - INFO - 获取页面元素:('css selector', '.toggle')
+2021-12-19 20:47:05,949 - logs… - INFO - 实际值：XTZ/CRO
+2021-12-19 20:47:05,949 - logs… - INFO - 获取页面元素:('css selector', '.toggle')
+2021-12-19 20:47:05,980 - logs… - INFO -  结束执行 test_trade_search02 测试用例， 测试结果 --- PASS 
+2021-12-19 20:47:06,235 - logs… - INFO - 自动导航到XTZ/CRO交易页面-正常截图截图成功，图片路径为: 自动导航到XTZ/CRO交易页面-正常截图
+2021-12-19 20:47:09,253 - logs… - INFO - ==========结束执行XX测试用例集===========
+2021-12-19 20:47:12,125 - logs… - INFO - ==========结束 XX项目 测试===========

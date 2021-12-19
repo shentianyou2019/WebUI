@@ -1,0 +1,10 @@
+2021-11-17 18:56:41,792 - logs… - INFO - ==========开始 AMP项目 执行测试===========
+2021-11-17 18:56:41,794 - logs… - INFO - You had select Firefox browser.
+2021-11-17 18:56:49,086 - logs… - INFO - Starting firefox browser.
+2021-11-17 18:56:49,347 - logs… - INFO - ==========开始执行登录测试用例集===========
+2021-11-17 18:56:49,347 - logs… - INFO - ----------------------------------------------------------------------------------<selenium.webdriver.firefox.webdriver.WebDriver (session="ec17ecc8-1175-4fc4-aba0-17b2c0200465")>
+2021-11-17 18:58:44,498 - logs… - INFO -  执行 test_login_passwordFormat_error 测试用例 
+2021-11-17 18:58:49,944 - logs… - INFO -  异常测试用例：登录功能-异常测试-用户名为空 
+2021-11-17 18:59:46,028 - logs… - INFO - 期望值：用户名不能为空
+2021-11-17 18:59:46,902 - logs… - INFO - 获取页面元素:('class name', 'error')
+2021-11-17 18:59:46,929 - logs… - INFO - 实际值：用户名不能为空！

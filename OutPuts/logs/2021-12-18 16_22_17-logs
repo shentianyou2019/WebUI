@@ -1,0 +1,77 @@
+2021-12-18 16:22:17,729 - logs… - INFO - ==========开始 AMP项目 执行测试===========
+2021-12-18 16:22:17,730 - logs… - INFO - You had select Chrome browser.
+2021-12-18 16:22:19,231 - logs… - INFO - Starting Chrome browser.
+2021-12-18 16:22:19,361 - logs… - INFO - ==========开始执行登录测试用例集===========
+2021-12-18 16:22:19,361 - logs… - INFO - ----------------------------------------------------------------------------------<selenium.webdriver.chrome.webdriver.WebDriver (session="75cfd2ec2d86a31b04103ace1ef15e99")>
+2021-12-18 16:23:11,463 - logs… - INFO -  执行 test_login_passwordFormat_error 测试用例 
+2021-12-18 16:23:11,463 - logs… - INFO -  异常测试用例：登录功能-异常测试-用户名为空 
+2021-12-18 16:23:21,650 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8>界面中未能找到('css selector', 'div.userInput:nth-child(2) > input:nth-child(1)')元素
+2021-12-18 16:23:21,650 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8> 界面中未能找到 ('css selector', 'div.userInput:nth-child(2) > input:nth-child(1)') 元素
+2021-12-18 16:23:31,690 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8>界面中未能找到('css selector', 'div.userInput:nth-child(3) > input:nth-child(2)')元素
+2021-12-18 16:23:31,690 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8> 界面中未能找到 ('css selector', 'div.userInput:nth-child(3) > input:nth-child(2)') 元素
+2021-12-18 16:23:42,131 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8>界面中未能找到('css selector', '.imgInput > input:nth-child(2)')元素
+2021-12-18 16:23:42,132 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8> 界面中未能找到 ('css selector', '.imgInput > input:nth-child(2)') 元素
+2021-12-18 16:23:52,593 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8>界面中未能找到('css selector', '.loginButton')元素
+2021-12-18 16:23:52,593 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8> 界面中未能找到 ('css selector', '.loginButton') 元素
+2021-12-18 16:23:52,593 - logs… - INFO - 期望值：用户名不能为空
+2021-12-18 16:23:52,593 - logs… - INFO - 获取页面元素:('class name', 'error')
+2021-12-18 16:24:03,046 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8>界面中未能找到('class name', 'error')元素
+2021-12-18 16:24:03,046 - logs… - INFO - 页面('class name', 'error')元素的文本获取失败！！！
+2021-12-18 16:24:06,189 - logs… - INFO -  执行 test_login_passwordFormat_error 测试用例 
+2021-12-18 16:24:06,189 - logs… - INFO -  异常测试用例：登录功能-异常测试-用户名不存在 
+2021-12-18 16:24:16,399 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8>界面中未能找到('css selector', 'div.userInput:nth-child(2) > input:nth-child(1)')元素
+2021-12-18 16:24:16,399 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8> 界面中未能找到 ('css selector', 'div.userInput:nth-child(2) > input:nth-child(1)') 元素
+2021-12-18 16:24:26,793 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8>界面中未能找到('css selector', 'div.userInput:nth-child(3) > input:nth-child(2)')元素
+2021-12-18 16:24:26,793 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8> 界面中未能找到 ('css selector', 'div.userInput:nth-child(3) > input:nth-child(2)') 元素
+2021-12-18 16:24:37,083 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8>界面中未能找到('css selector', '.imgInput > input:nth-child(2)')元素
+2021-12-18 16:24:37,083 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8> 界面中未能找到 ('css selector', '.imgInput > input:nth-child(2)') 元素
+2021-12-18 16:24:47,359 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8>界面中未能找到('css selector', '.loginButton')元素
+2021-12-18 16:24:47,359 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8> 界面中未能找到 ('css selector', '.loginButton') 元素
+2021-12-18 16:24:47,360 - logs… - INFO - 期望值：用户名或密码错误
+2021-12-18 16:24:47,360 - logs… - INFO - 获取页面元素:('class name', 'error')
+2021-12-18 16:24:57,657 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8>界面中未能找到('class name', 'error')元素
+2021-12-18 16:24:57,657 - logs… - INFO - 页面('class name', 'error')元素的文本获取失败！！！
+2021-12-18 16:26:15,462 - logs… - INFO -  执行 test_login_passwordFormat_error 测试用例 
+2021-12-18 16:26:15,462 - logs… - INFO -  异常测试用例：登录功能-异常测试-密码为空 
+2021-12-18 16:26:25,985 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8>界面中未能找到('css selector', 'div.userInput:nth-child(2) > input:nth-child(1)')元素
+2021-12-18 16:26:25,986 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8> 界面中未能找到 ('css selector', 'div.userInput:nth-child(2) > input:nth-child(1)') 元素
+2021-12-18 16:26:35,988 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8>界面中未能找到('css selector', 'div.userInput:nth-child(3) > input:nth-child(2)')元素
+2021-12-18 16:26:35,989 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8> 界面中未能找到 ('css selector', 'div.userInput:nth-child(3) > input:nth-child(2)') 元素
+2021-12-18 16:26:46,007 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8>界面中未能找到('css selector', '.imgInput > input:nth-child(2)')元素
+2021-12-18 16:26:46,008 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8> 界面中未能找到 ('css selector', '.imgInput > input:nth-child(2)') 元素
+2021-12-18 16:26:56,483 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8>界面中未能找到('css selector', '.loginButton')元素
+2021-12-18 16:26:56,483 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8> 界面中未能找到 ('css selector', '.loginButton') 元素
+2021-12-18 16:26:56,483 - logs… - INFO - 期望值：密码不能为空
+2021-12-18 16:26:56,483 - logs… - INFO - 获取页面元素:('class name', 'error')
+2021-12-18 16:27:06,990 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8>界面中未能找到('class name', 'error')元素
+2021-12-18 16:27:06,990 - logs… - INFO - 页面('class name', 'error')元素的文本获取失败！！！
+2021-12-18 16:27:10,020 - logs… - INFO -  执行 test_login_passwordFormat_error 测试用例 
+2021-12-18 16:27:10,020 - logs… - INFO -  异常测试用例：登录功能-异常测试-密码错误 
+2021-12-18 16:28:28,426 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8>界面中未能找到('css selector', 'div.userInput:nth-child(2) > input:nth-child(1)')元素
+2021-12-18 16:28:28,426 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8> 界面中未能找到 ('css selector', 'div.userInput:nth-child(2) > input:nth-child(1)') 元素
+2021-12-18 16:28:38,641 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8>界面中未能找到('css selector', 'div.userInput:nth-child(3) > input:nth-child(2)')元素
+2021-12-18 16:28:38,641 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8> 界面中未能找到 ('css selector', 'div.userInput:nth-child(3) > input:nth-child(2)') 元素
+2021-12-18 16:28:49,118 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8>界面中未能找到('css selector', '.imgInput > input:nth-child(2)')元素
+2021-12-18 16:28:49,119 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8> 界面中未能找到 ('css selector', '.imgInput > input:nth-child(2)') 元素
+2021-12-18 16:28:59,150 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8>界面中未能找到('css selector', '.loginButton')元素
+2021-12-18 16:28:59,150 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8> 界面中未能找到 ('css selector', '.loginButton') 元素
+2021-12-18 16:28:59,151 - logs… - INFO - 期望值：用户名或密码错误
+2021-12-18 16:28:59,151 - logs… - INFO - 获取页面元素:('class name', 'error')
+2021-12-18 16:29:09,565 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8>界面中未能找到('class name', 'error')元素
+2021-12-18 16:29:09,565 - logs… - INFO - 页面('class name', 'error')元素的文本获取失败！！！
+2021-12-18 16:29:12,603 - logs… - INFO -  执行 test_login_success 测试用例 
+2021-12-18 16:29:12,604 - logs… - INFO -  正常登录测试用例 
+2021-12-18 16:31:08,819 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8>界面中未能找到('css selector', 'div.userInput:nth-child(2) > input:nth-child(1)')元素
+2021-12-18 16:31:08,820 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8> 界面中未能找到 ('css selector', 'div.userInput:nth-child(2) > input:nth-child(1)') 元素
+2021-12-18 16:31:19,266 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8>界面中未能找到('css selector', 'div.userInput:nth-child(3) > input:nth-child(2)')元素
+2021-12-18 16:31:19,266 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8> 界面中未能找到 ('css selector', 'div.userInput:nth-child(3) > input:nth-child(2)') 元素
+2021-12-18 16:31:29,764 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8>界面中未能找到('css selector', '.imgInput > input:nth-child(2)')元素
+2021-12-18 16:31:29,765 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8> 界面中未能找到 ('css selector', '.imgInput > input:nth-child(2)') 元素
+2021-12-18 16:31:40,233 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8>界面中未能找到('css selector', '.loginButton')元素
+2021-12-18 16:31:40,233 - logs… - ERROR - <PageObjects.LoginPom.login_page.LoginPage object at 0x000001A7601AF9E8> 界面中未能找到 ('css selector', '.loginButton') 元素
+2021-12-18 16:31:40,234 - logs… - INFO - 期望值：True
+2021-12-18 16:31:40,234 - logs… - INFO - 实际值：False
+2021-12-18 16:31:40,234 - logs… - ERROR -  结束执行 test_login_success 测试用例， 测试结果 --- False 
+2021-12-18 16:31:40,693 - logs… - INFO - 登录功能-正常测试-异常截图截图成功，图片路径为: 登录功能-正常测试-异常截图
+2021-12-18 16:31:43,712 - logs… - INFO - ==========结束执行登录测试用例集===========
+2021-12-18 16:31:45,897 - logs… - INFO - ==========结束 AMP项目 测试===========

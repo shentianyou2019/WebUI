@@ -1,0 +1,7 @@
+2021-12-18 18:37:49,176 - logs… - INFO - ==========开始 XX项目 执行测试===========
+2021-12-18 18:37:49,178 - logs… - INFO - You had select Chrome browser.
+2021-12-18 18:37:52,083 - logs… - INFO - Starting Chrome browser.
+2021-12-18 18:37:52,244 - logs… - INFO - ==========开始执行XX测试用例集===========
+2021-12-18 18:37:52,245 - logs… - INFO - ----------------------------------------------------------------------------------<selenium.webdriver.chrome.webdriver.WebDriver (session="504cc0dcd7d2ac0736a18a92992535f0")>
+2021-12-18 18:39:02,352 - logs… - INFO -  执行 test_trade_search01 测试用例 
+2021-12-18 18:39:02,352 - logs… - INFO -  异常测试用例：自动导航到XTZ/CRO交易页面 

@@ -1,0 +1,6 @@
+2021-12-18 19:02:48,739 - logs… - INFO - ==========开始 XX项目 执行测试===========
+2021-12-18 19:02:48,741 - logs… - INFO - You had select Chrome browser.
+2021-12-18 19:02:51,218 - logs… - INFO - Starting Chrome browser.
+2021-12-18 19:02:51,386 - logs… - INFO - ==========开始执行XX测试用例集===========
+2021-12-18 19:02:51,387 - logs… - INFO - ----------------------------------------------------------------------------------<selenium.webdriver.chrome.webdriver.WebDriver (session="e5ddd61bee5daa1cd92ab2c0c5c9d3e6")>
+2021-12-18 19:07:55,204 - logs… - INFO - ==========结束 XX项目 测试===========

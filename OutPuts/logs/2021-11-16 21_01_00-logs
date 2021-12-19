@@ -1,0 +1,4 @@
+2021-11-16 21:01:00,578 - logs… - INFO - weqqqqqqqqqqqqqqqqqqqqqqqq
+2021-11-16 21:01:00,578 - logs… - INFO - admin
+2021-11-16 21:01:00,578 - logs… - INFO - {'case_ID': 1.0, 'name': '登录功能-正常测试', 'username': 'admin', 'password': 'Admin$123456', 'code': 'admin', 'Msg': '基础设施监控'}
+2021-11-16 21:01:00,578 - logs… - INFO - [{'case_ID': 1.0, 'name': '登录功能-异常测试-用户名为空', 'username': '', 'password': 'Admin$123456', 'code': 'admin', 'errorMsg': '用户名不能为空'}, {'case_ID': 2.0, 'name': '登录功能-异常测试-用户名不存在', 'username': 'adminadmin', 'password': 'Admin$123456', 'code': 'admin', 'errorMsg': '用户名或密码错误'}, {'case_ID': 3.0, 'name': '登录功能-异常测试-密码为空', 'username': 'admin', 'password': '', 'code': 'admin', 'errorMsg': '密码不能为空'}, {'case_ID': 4.0, 'name': '登录功能-异常测试-密码错误', 'username': 'admin', 'password': 'admin', 'code': 'admin', 'errorMsg': '用户名或密码错误'}]

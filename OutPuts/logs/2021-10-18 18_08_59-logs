@@ -1,0 +1,20 @@
+2021-10-18 18:08:59,741 - logs… - INFO - ==========开始 AMP项目 执行测试===========
+2021-10-18 18:08:59,742 - logs… - INFO - You had select Firefox browser.
+2021-10-18 18:09:07,843 - logs… - INFO - Starting firefox browser.
+2021-10-18 18:09:08,098 - logs… - INFO - ==========开始执行登录测试用例集===========
+2021-10-18 18:09:08,098 - logs… - INFO - ----------------------------------------------------------------------------------<selenium.webdriver.firefox.webdriver.WebDriver (session="b340767c-3d95-488f-92fa-8a57cdb62913")>
+2021-10-18 18:09:08,426 - logs… - INFO -  执行 test_login_success 测试用例 
+2021-10-18 18:09:08,448 - logs… - INFO -  正常登录测试用例 
+2021-10-18 18:09:10,103 - logs… - INFO - 期望值：True
+2021-10-18 18:09:10,103 - logs… - INFO - 实际值：False
+2021-10-18 18:09:10,104 - logs… - ERROR -  结束执行 test_login_success 测试用例， 测试结果 --- False 
+2021-10-18 18:09:10,481 - logs… - INFO - 登录功能-正常测试-异常截图截图成功，图片路径为: 登录功能-正常测试-异常截图
+2021-10-18 18:09:13,859 - logs… - INFO - ==========开始执行HOME测试用例集===========
+2021-10-18 18:09:13,860 - logs… - INFO - ----------------------------------------------------------------------------------<selenium.webdriver.firefox.webdriver.WebDriver (session="b340767c-3d95-488f-92fa-8a57cdb62913")>
+2021-10-18 18:09:15,866 - logs… - INFO -  执行 test_ima_success 测试用例 
+2021-10-18 18:09:15,866 - logs… - INFO - 正常点击控制台测试用例
+2021-10-18 18:09:26,240 - logs… - ERROR - <PageObjects.ImsPom.home_page.HomePage object at 0x000001AF2058EFD0>界面中未能找到('xpath', '//*[@id="app"]/div/div[2]/div[1]/span')元素
+2021-10-18 18:09:26,240 - logs… - ERROR - <PageObjects.ImsPom.home_page.HomePage object at 0x000001AF2058EFD0> 界面中未能找到 ('xpath', '//*[@id="app"]/div/div[2]/div[1]/span') 元素
+2021-10-18 18:09:29,526 - logs… - INFO - ==========结束执行HOME测试用例集===========
+2021-10-18 18:09:29,526 - logs… - INFO - ==========结束执行登录测试用例集===========
+2021-10-18 18:09:31,425 - logs… - INFO - ==========结束 AMP项目 测试===========
