@@ -48,9 +48,7 @@
     def test_trade_search01(self, data, start_session):
         logger.info(" 执行 {0} 测试用例 ".format(sys._getframe().f_code.co_name))
         logger.info(" 正常测试用例：{0} ".format(data['name']))
-        # 前置  访问登录页面
-        # 步骤  输入用户名为空  密码 点击登录
-        # 断言  登录中  提示：用户名或密码错误
+ 
         #logger.info('type ', type(data))
         start_session[1].search_01(data['searchterm'])
         logger.info("期望值：{0}".format(data['Msg']))
@@ -74,9 +72,7 @@
     def test_trade_search02(self, data, start_session):
         logger.info(" 执行 {0} 测试用例 ".format(sys._getframe().f_code.co_name))
         logger.info(" 异常测试用例：{0} ".format(data['name']))
-        # 前置  访问登录页面
-        # 步骤  输入用户名为空  密码 点击登录
-        # 断言  登录中  提示：用户名或密码错误
+ 
         # logger.info('type ', type(data))
         start_session[1].search_02()
         logger.info("期望值：{0}".format(data['Msg']))
