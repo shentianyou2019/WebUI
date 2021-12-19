@@ -1,5 +1,10 @@
-# WebUI
-这是一个关于python的WebUI自动化测试的项目，pytest测试框架，Python+PageObject+Pytest
+Task 1:
+Situation: 
+You are given a web url: https://crypto.com/exchange/markets
+We want to automate the actions of navigating to trade page of XTZ/CRO
+for the web in Google Chrome.
+
+这是一个关于python的WebUI自动化测试的项目，pytest测试框架，Python+ Selenium +Pytest
 
 实现页面元素、页面对象及业务、测试数据分离
 
